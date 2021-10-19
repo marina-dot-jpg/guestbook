@@ -1,8 +1,5 @@
 <?php include "../db/guestbook/config.php";
 
-$dir = getcwd();
-$username = basename($dir);
-
 $error_message = "";
 $success_message = "";
 
