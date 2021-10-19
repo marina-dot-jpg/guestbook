@@ -1,1 +1,3 @@
-<?php include "../../usersubmit.php";
+<?php
+include "../../usersubmit.php";
+include "../db/guestbook/config.php";
