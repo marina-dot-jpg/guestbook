@@ -83,7 +83,27 @@ $stmt->bind_param("sssss", $email, $username, $name, $hashedpass, $hash);
 $stmt->execute();
 $stmt->close();
 
-?>
+$mkdir = mkdir("/home/sadness/public_html/guestbook/users/$username");
+$createPublicPage = fopen("/home/sadness/public_html/guestbook/users/$username/index.php", 'w');
+$createSubmitPage = fopen("/home/sadness/public_html/guestbook/users/$username/submit.php", 'w');
+
+fwrite($createPublicPage, '<?php
+$dir = getcwd();
+$username = basename($dir);
+
+include "../../../db/guestbook/config.php"
+include "../../userpage.php"
+?>')
+
+fwrite($createSubmitPage, '<?php
+$dir = getcwd();
+$username = basename($dir);
+
+include "../../../db/guestbook/config.php"
+include "../../usersubmit.php"
+?>')
+
+
 <link rel="stylesheet" href="css/style.css" media="all">
   </head>
   <body>
