@@ -1,4 +1,4 @@
-<?php include "../db/guestbook/config.php";
+<?php
 
 $error_message = "";
 $success_message = "";
