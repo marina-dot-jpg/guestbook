@@ -1,22 +1,22 @@
 <?php
 include "config.php";
 
-if(isset($_POST['but_submit'])){
+if (isset($_POST['but_submit'])) {
 
-$username = mysqli_real_escape_string($con,$_POST['username']);
-$password = mysqli_real_escape_string($con,$_POST['password']);
+    $username = mysqli_real_escape_string($con, $_POST['username']);
+    $password = mysqli_real_escape_string($con, $_POST['password']);
 
     $result = mysqli_fetch_assoc(mysqli_query($con, "SELECT password FROM users WHERE active = '1' AND username = '" . $username . "'"));
     $password_hash = (isset($result['password']) ? $result['password'] : '');
     $result = password_verify($password, $password_hash);
 
-if($result){
-    $_SESSION['uname'] = $username;
-    header('Location: admin.php');
-}else{
-    $msg = "<div style='text-align:center; font-weight:bold; color:red; margin-bottom:10px;'> Login Failed! Please make sure that you enter the correct details and that you have activated your account.</div>";
-    echo $msg;
-}
+    if ($result) {
+        $_SESSION['uname'] = $username;
+        header('Location: admin.php');
+    } else {
+        $msg = "<div style='text-align:center; font-weight:bold; color:red; margin-bottom:10px;'> Login Failed! Please make sure that you enter the correct details and that you have activated your account.</div>";
+        echo $msg;
+    }
 }
 ?>
 <head>
@@ -40,7 +40,7 @@ if($result){
             </div>
             <p style="font-size:10px; margin-left:10px;">Forgot your password? Click <a href="forgot-password/">here</a> to reset it.</a>
             <br>Forgot your username? Click <a href="forgot-username/">here</a> to reset it.</a></p>
-            
+
             <div>
                 <input type="submit" value="Submit" name="but_submit" id="but_submit" />
             </div>

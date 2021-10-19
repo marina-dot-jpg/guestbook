@@ -3,7 +3,7 @@
 $dir = getcwd();
 $username = basename($dir);
 ?>
-<?php 
+<?php
 $error_message = "";$success_message = "";
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {

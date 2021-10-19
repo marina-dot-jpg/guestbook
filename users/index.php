@@ -1,5 +1,4 @@
-
-    <link rel="stylesheet" href="css/style.css" media="all">
+<link rel="stylesheet" href="css/style.css" media="all">
 </head>
 <div class="topbar"></div>
 <div id="container">
@@ -8,8 +7,8 @@
     <div class="item"><a href="register.php">Register</a></div>
     <div class="item"><a href="login.php">Login</a></div>
   </div>
-    
-    
+
+
     <?php include("../../config.php");
 
 $dir = getcwd();
@@ -37,6 +36,6 @@ $username = basename($dir);
     $output .= "<td>$Date</td> <td>$Nickname</td> <td>$Email</td> <td>$Comment</td>";
     $output .= "</tr>";
   }
-  
+
     ?>
-    
+

@@ -1,8 +1,8 @@
-<?php 
+<?php
 include "config.php";
 
-if(isset($_POST['btnsignup'])){
-     header('Location: success.php');
+if (isset($_POST['btnsignup'])) {
+    header('Location: success.php');
 }
 ?>
 <!DOCTYPE html>
@@ -19,78 +19,75 @@ if(isset($_POST['btnsignup'])){
     <!-- Bootstrap JS -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="css/style.css" media="all">
-<?php 
-$error_message = "";$success_message = "";
+<?php
+$error_message = "";
+$success_message = "";
 
 // Register user
-if(isset($_POST['btnsignup'])){
-    
-   $email = mysqli_real_escape_string($con,$_POST['email']);
-   $username = mysqli_real_escape_string($con, $_POST['username']);
-   $name = mysqli_real_escape_string($con, $_POST['email']);
-   $password = mysqli_real_escape_string($con, $_POST['password']);
-   $confirmpassword = mysqli_real_escape_string($con, $_POST['confirmpassword']);
-   $hash = md5( rand(0,1000) ); // Generate random 32 character hash and assign it to a local variable.
+if (isset($_POST['btnsignup'])) {
+
+    $email = mysqli_real_escape_string($con, $_POST['email']);
+    $username = mysqli_real_escape_string($con, $_POST['username']);
+    $name = mysqli_real_escape_string($con, $_POST['email']);
+    $password = mysqli_real_escape_string($con, $_POST['password']);
+    $confirmpassword = mysqli_real_escape_string($con, $_POST['confirmpassword']);
+    $hash = md5(rand(0, 1000)); // Generate random 32 character hash and assign it to a local variable.
     // Example output: f4552671f8909587cf485ea990207f3b
-    
+
     $to = $email; // Send email to our user
-    $subject = 'Guestbook Verification'; // Give the email a subject 
+    $subject = 'Guestbook Verification'; // Give the email a subject
     $message = '
-    
+
     Your guestbook account has been created, you can login with the following credentials after you have activated your account by pressing the url below.
-    
+
     ------------------------
-    Username: '.$username.'
+    Username: ' . $username . '
     ------------------------
-    
+
     Please click this link to activate your account:
-    https://sadgrl.leprd.space/guestbook/verify.php?email='.$email.'&hash='.$hash.'
-    
+    https://sadgrl.leprd.space/guestbook/verify.php?email=' . $email . '&hash=' . $hash . '
+
     '; // Our message above including the link
-                  
+
     $headers = 'From:noreply@sadgrl.leprd.space' . "\r\n"; // Set from headers
     mail($to, $subject, $message, $headers); // Send our email
 
-   // Check fields are empty or not
-   if($email == '' || $username == '' || $name == '' || $password == '' || $confirmpassword == ''){
-     $error_message = "Please fill all fields.";
-   }
+    // Check fields are empty or not
+    if ($email == '' || $username == '' || $name == '' || $password == '' || $confirmpassword == '') {
+        $error_message = "Please fill all fields.";
+    }
 
-   // Check if confirm password matching or not
-   if($password != $confirmpassword) {
-     $error_message = "Confirm password not matching";
-   }
+    // Check if confirm password matching or not
+    if ($password != $confirmpassword) {
+        $error_message = "Confirm password not matching";
+    }
 
-     // Check if username already exists
-     $stmt = $con->prepare("SELECT * FROM users WHERE username = '$username'");
-     $stmt->bind_param("s", $username);
-     $stmt->execute();
-     $result = $stmt->get_result();
-     if($result->num_rows > 0){
-       $error_message = "<div style='color:red; font-weight:strong; text-align:center;'>Username already exists. Please try a different one.</div>";
-       echo $error_message;
-     }
+    // Check if username already exists
+    $stmt = $con->prepare("SELECT * FROM users WHERE username = '$username'");
+    $stmt->bind_param("s", $username);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if ($result->num_rows > 0) {
+        $error_message = "<div style='color:red; font-weight:strong; text-align:center;'>Username already exists. Please try a different one.</div>";
+        echo $error_message;
+    }
 
-   }
-   
-   $hashedpass = password_hash($password, PASSWORD_DEFAULT);
+}
 
+$hashedpass = password_hash($password, PASSWORD_DEFAULT);
 
-   // Insert records
-     $insertSQL = "INSERT INTO users(email,username,name,password,hash ) values(?,?,?,?,?)";
-     $stmt = $con->prepare($insertSQL);
-     $stmt->bind_param("sssss",$email,$username,$name,$hashedpass,$hash);
-     $stmt->execute();
-     $stmt->close();
-     
+// Insert records
+$insertSQL = "INSERT INTO users(email,username,name,password,hash ) values(?,?,?,?,?)";
+$stmt = $con->prepare($insertSQL);
+$stmt->bind_param("sssss", $email, $username, $name, $hashedpass, $hash);
+$stmt->execute();
+$stmt->close();
 
-    
-    $mkdir = mkdir("/home/sadness/public_html/guestbook/users/$username");
-    $createPublicPage = fopen("/home/sadness/public_html/guestbook/users/$username/index.php", 'w');
-    $createSubmitPage = fopen("/home/sadness/public_html/guestbook/users/$username/submit.php", 'w');
-    
-    fwrite($createPublicPage, '
-    <link rel="stylesheet" href="css/style.css" media="all">
+$mkdir = mkdir("users/$username");
+$createPublicPage = fopen("users/$username/index.php", 'w');
+$createSubmitPage = fopen("users/$username/submit.php", 'w');
+
+fwrite($createPublicPage, '<link rel="stylesheet" href="css/style.css" media="all">
 </head>
 <div class="topbar"></div>
 <div id="container">
@@ -99,8 +96,8 @@ if(isset($_POST['btnsignup'])){
     <div class="item"><a href="register.php">Register</a></div>
     <div class="item"><a href="login.php">Login</a></div>
   </div>
-    
-    
+
+
     <?php include("../../config.php");
 
 $dir = getcwd();
@@ -128,16 +125,16 @@ $username = basename($dir);
     $output .= "<td>$Date</td> <td>$Nickname</td> <td>$Email</td> <td>$Comment</td>";
     $output .= "</tr>";
   }
-  
+
     ?>
-    
+
 ');
-    fwrite($createSubmitPage, '<?php include("../../config.php");
+fwrite($createSubmitPage, '<?php include("../../config.php");
 
 $dir = getcwd();
 $username = basename($dir);
 ?>
-<?php 
+<?php
 $error_message = "";$success_message = "";
 
 if($_SERVER[\'REQUEST_METHOD\'] == \'POST\') {
@@ -214,7 +211,7 @@ if(isset($_POST["btnComment"])){
     </div>
   </body>
 </html>')
-    
+
 ?>
 <link rel="stylesheet" href="css/style.css" media="all">
   </head>
