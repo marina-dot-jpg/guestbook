@@ -6,8 +6,8 @@ $stmt->bind_param("s", $username);
 $stmt->execute();
 $result = $stmt->get_result();
 $output = "";
-$output .= "<a href=\'submit.php\'><button>Leave a Comment</button></a><br>";
-$output .= "<h1>" . $username . "\'s Guestbook</h1>";
+$output .= "<a href='submit.php'><button>Leave a Comment</button></a><br>";
+$output .= "<h1>" . $username . "'s Guestbook</h1>";
 $output .= "<table>";
 $output .= "<tr>";
 $output .= "<th>Date</th>
