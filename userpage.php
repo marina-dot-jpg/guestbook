@@ -11,11 +11,6 @@
 <?php
 include "../db/guestbook/config.php";
 
-$dir = getcwd();
-$username = basename($dir);
-
-$username = 'sadness';
-
 $stmt = $con->prepare("SELECT * FROM guestbooks WHERE gowner=?");
 $stmt->bind_param("s", $username);
 $stmt->execute();
