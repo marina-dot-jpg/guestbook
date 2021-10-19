@@ -37,5 +37,5 @@ while ($row = $result->fetch_assoc()) {
     $output .= "<td>$Date</td> <td>$Nickname</td> <td>$Email</td> <td>$Comment</td>";
     $output .= "</tr>";
 }
-
+echo $html;
 echo $output;
