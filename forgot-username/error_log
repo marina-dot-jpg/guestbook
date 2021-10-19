@@ -1,0 +1,33 @@
+[18-Oct-2021 18:09:27 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/sadness/public_html/guestbook/forgot-username/index.php on line 66
+[18-Oct-2021 18:10:53 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 11
+[18-Oct-2021 18:10:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 11
+[18-Oct-2021 18:22:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:23:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:24:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:26:07 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:26:38 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:28:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:30:00 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:31:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:31:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:32:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:33:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:34:24 UTC] PHP Parse error:  syntax error, unexpected ''.$myvariable;.'' (T_CONSTANT_ENCAPSED_STRING) in /home/sadness/public_html/guestbook/forgot-username/index.php on line 39
+[18-Oct-2021 18:34:28 UTC] PHP Parse error:  syntax error, unexpected ''.$myvariable;.'' (T_CONSTANT_ENCAPSED_STRING) in /home/sadness/public_html/guestbook/forgot-username/index.php on line 39
+[18-Oct-2021 18:34:55 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/sadness/public_html/guestbook/forgot-username/index.php on line 39
+[18-Oct-2021 18:34:57 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/sadness/public_html/guestbook/forgot-username/index.php on line 39
+[18-Oct-2021 18:35:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:35:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:37:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:40:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:40:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:42:27 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:43:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:47:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:54:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:54:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:54:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:55:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 18:55:38 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/forgot-username/index.php on line 24
+[18-Oct-2021 19:01:11 UTC] PHP Parse error:  syntax error, unexpected 'An' (T_STRING), expecting ',' or ';' in /home/sadness/public_html/guestbook/forgot-username/index.php on line 49
+[18-Oct-2021 19:01:12 UTC] PHP Parse error:  syntax error, unexpected 'An' (T_STRING), expecting ',' or ';' in /home/sadness/public_html/guestbook/forgot-username/index.php on line 49

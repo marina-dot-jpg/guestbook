@@ -1,0 +1,4 @@
+[18-Oct-2021 20:20:35 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/sadness/public_html/guestbook/users/sadness/index.php on line 25
+[18-Oct-2021 20:31:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sadness/public_html/guestbook/users/sadness/submit.php:4) in /home/sadness/public_html/guestbook/users/sadness/submit.php on line 10
+[18-Oct-2021 20:33:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sadness/public_html/guestbook/users/sadness/submit.php:4) in /home/sadness/public_html/guestbook/users/sadness/submit.php on line 10
+[18-Oct-2021 20:34:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sadness/public_html/guestbook/users/sadness/submit.php:4) in /home/sadness/public_html/guestbook/users/sadness/submit.php on line 10

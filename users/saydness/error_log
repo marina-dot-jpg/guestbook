@@ -1,0 +1,2 @@
+[18-Oct-2021 21:14:41 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sadness/public_html/guestbook/config.php on line 2
+[18-Oct-2021 21:15:56 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sadness/public_html/guestbook/config.php on line 2

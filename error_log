@@ -1,0 +1,518 @@
+[16-Oct-2021 16:49:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'sadness_dbaccess'@'localhost' to database 'sadness_Guestbooklogin' in /home/sadness/public_html/guestbook/config.php on line 8
+[16-Oct-2021 16:51:42 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sadness/public_html/guestbook/config.php on line 2
+[16-Oct-2021 17:07:22 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/sadness/public_html/guestbook/register.php on line 58
+[16-Oct-2021 17:08:04 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/sadness/public_html/guestbook/register.php on line 58
+[16-Oct-2021 18:39:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/sadness/public_html/guestbook/register.php on line 58
+[16-Oct-2021 18:39:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/sadness/public_html/guestbook/register.php on line 58
+[16-Oct-2021 18:40:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/register.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 53
+[16-Oct-2021 18:40:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/register.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 53
+[16-Oct-2021 18:40:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/register.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 53
+[16-Oct-2021 20:42:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/register.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 53
+[16-Oct-2021 20:45:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/register.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 53
+[16-Oct-2021 20:45:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/register.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 53
+[16-Oct-2021 20:46:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/register.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 53
+[16-Oct-2021 20:48:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/register.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 53
+[16-Oct-2021 20:51:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/register.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 53
+[16-Oct-2021 20:58:35 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sadness/public_html/guestbook/config.php on line 2
+[16-Oct-2021 20:58:40 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sadness/public_html/guestbook/config.php on line 2
+[16-Oct-2021 20:58:50 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sadness/public_html/guestbook/config.php on line 2
+[16-Oct-2021 21:07:38 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sadness/public_html/guestbook/config.php on line 2
+[16-Oct-2021 21:07:43 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sadness/public_html/guestbook/config.php on line 2
+[16-Oct-2021 21:14:27 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/sadness/public_html/guestbook/config.php on line 2
+[17-Oct-2021 13:14:53 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sadness/public_html/guestbook/login.php on line 15
+[17-Oct-2021 13:14:54 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sadness/public_html/guestbook/login.php on line 15
+[17-Oct-2021 13:15:17 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sadness/public_html/guestbook/login.php on line 15
+[17-Oct-2021 13:15:17 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sadness/public_html/guestbook/login.php on line 15
+[17-Oct-2021 13:24:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/sadness/public_html/guestbook/login.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/login.php on line 19
+[17-Oct-2021 13:25:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/sadness/public_html/guestbook/login.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/login.php on line 19
+[17-Oct-2021 13:26:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/sadness/public_html/guestbook/login.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/login.php on line 19
+[17-Oct-2021 13:29:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sadness/public_html/guestbook/login.php:21) in /home/sadness/public_html/guestbook/login.php on line 23
+[17-Oct-2021 17:20:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/sadness/public_html/guestbook/register.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 74
+[17-Oct-2021 17:20:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/sadness/public_html/guestbook/register.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 74
+[17-Oct-2021 17:20:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/sadness/public_html/guestbook/register.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 74
+[17-Oct-2021 17:20:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/sadness/public_html/guestbook/register.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 80
+[17-Oct-2021 17:23:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/sadness/public_html/guestbook/register.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 80
+[17-Oct-2021 17:23:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/sadness/public_html/guestbook/register.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 80
+[17-Oct-2021 17:23:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/sadness/public_html/guestbook/register.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 80
+[17-Oct-2021 17:24:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/sadness/public_html/guestbook/register.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 80
+[17-Oct-2021 17:26:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'sadness_dbaccess'@'localhost' to database 'sadness_Guestbook' in /home/sadness/public_html/guestbook/config.php on line 8
+[17-Oct-2021 17:27:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'sadness_dbaccess'@'localhost' to database 'sadness_Guestbook' in /home/sadness/public_html/guestbook/config.php on line 8
+[17-Oct-2021 18:00:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/submit-comment.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/submit-comment.php on line 39
+[17-Oct-2021 18:12:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/submit-comment.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/submit-comment.php on line 39
+[17-Oct-2021 18:15:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/submit-comment.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/submit-comment.php on line 39
+[17-Oct-2021 18:15:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/submit-comment.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/submit-comment.php on line 39
+[17-Oct-2021 18:24:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/submit-comment.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/submit-comment.php on line 39
+[17-Oct-2021 18:24:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/submit-comment.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/submit-comment.php on line 39
+[17-Oct-2021 18:34:38 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/sadness/public_html/guestbook/submit-comment.php on line 32
+[17-Oct-2021 18:53:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 18:53:18 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/sadness/public_html/guestbook/index.php on line 48
+[17-Oct-2021 18:55:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 18:55:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 18:57:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 18:58:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 19:01:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_real_escape_string() in /home/sadness/public_html/guestbook/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/index.php on line 23
+[17-Oct-2021 19:01:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_real_escape_string() in /home/sadness/public_html/guestbook/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/index.php on line 23
+[17-Oct-2021 19:02:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_real_escape_string() in /home/sadness/public_html/guestbook/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/index.php on line 23
+[17-Oct-2021 19:03:41 UTC] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/sadness/public_html/guestbook/index.php on line 23
+[17-Oct-2021 19:03:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 19:03:42 UTC] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/sadness/public_html/guestbook/index.php on line 23
+[17-Oct-2021 19:03:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 19:04:23 UTC] PHP Warning:  Illegal string offset 'username' in /home/sadness/public_html/guestbook/index.php on line 23
+[17-Oct-2021 19:04:23 UTC] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/sadness/public_html/guestbook/index.php on line 23
+[17-Oct-2021 19:04:23 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 19:07:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 19:07:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 19:08:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 19:08:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 19:10:30 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 19:13:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 19:13:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 19:15:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 19:15:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 19:21:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 34
+[17-Oct-2021 19:25:01 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/sadness/public_html/guestbook/index.php on line 23
+[17-Oct-2021 19:31:42 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/sadness/public_html/guestbook/index.php on line 23
+[17-Oct-2021 19:34:15 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/sadness/public_html/guestbook/index.php on line 24
+[17-Oct-2021 19:38:10 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/sadness/public_html/guestbook/index.php on line 45
+[17-Oct-2021 19:45:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 32
+[17-Oct-2021 19:45:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 32
+[17-Oct-2021 19:45:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 32
+[17-Oct-2021 19:46:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 32
+[17-Oct-2021 19:46:47 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 32
+[17-Oct-2021 19:47:23 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 32
+[17-Oct-2021 19:50:16 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:50:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:50:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:50:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:51:23 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:51:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:51:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:52:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:52:38 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:53:47 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:37 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:37 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:37 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:38 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:38 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:38 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:54:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:57:12 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:57:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:57:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:57:35 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:58:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 19:58:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/index.php on line 33
+[17-Oct-2021 20:06:04 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 2 given in /home/sadness/public_html/guestbook/index.php on line 23
+[17-Oct-2021 20:06:05 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 2 given in /home/sadness/public_html/guestbook/index.php on line 23
+[17-Oct-2021 20:08:55 UTC] PHP Parse error:  syntax error, unexpected 'post' (T_STRING) in /home/sadness/public_html/guestbook/index.php on line 53
+[17-Oct-2021 20:09:15 UTC] PHP Parse error:  syntax error, unexpected 'post' (T_STRING) in /home/sadness/public_html/guestbook/index.php on line 53
+[17-Oct-2021 20:09:37 UTC] PHP Parse error:  syntax error, unexpected 'Query' (T_STRING) in /home/sadness/public_html/guestbook/index.php on line 22
+[17-Oct-2021 20:09:38 UTC] PHP Parse error:  syntax error, unexpected 'Query' (T_STRING) in /home/sadness/public_html/guestbook/index.php on line 22
+[17-Oct-2021 20:42:17 UTC] PHP Parse error:  syntax error, unexpected '$createPage' (T_VARIABLE) in /home/sadness/public_html/guestbook/register.php on line 62
+[17-Oct-2021 20:42:18 UTC] PHP Parse error:  syntax error, unexpected '$createPage' (T_VARIABLE) in /home/sadness/public_html/guestbook/register.php on line 62
+[17-Oct-2021 20:44:15 UTC] PHP Parse error:  syntax error, unexpected '$createPage' (T_VARIABLE) in /home/sadness/public_html/guestbook/register.php on line 62
+[17-Oct-2021 20:46:24 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 61
+[17-Oct-2021 22:57:00 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/sadness/public_html/guestbook/register.php on line 66
+[17-Oct-2021 22:57:20 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 61
+[17-Oct-2021 23:07:14 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/sadness/public_html/guestbook/register.php on line 66
+[17-Oct-2021 23:11:59 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/sadness/public_html/guestbook/register.php on line 66
+[17-Oct-2021 23:15:10 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 61
+[17-Oct-2021 23:15:10 UTC] PHP Warning:  fwrite() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/register.php on line 95
+[17-Oct-2021 23:15:16 UTC] PHP Warning:  fwrite() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/register.php on line 95
+[17-Oct-2021 23:18:54 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 61
+[17-Oct-2021 23:56:26 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 61
+[18-Oct-2021 00:02:42 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 61
+[18-Oct-2021 00:04:54 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 61
+[18-Oct-2021 00:06:46 UTC] PHP Parse error:  syntax error, unexpected '$username' (T_VARIABLE), expecting ',' or ')' in /home/sadness/public_html/guestbook/register.php on line 70
+[18-Oct-2021 00:07:05 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 61
+[18-Oct-2021 00:09:49 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 61
+[18-Oct-2021 00:13:22 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 61
+[18-Oct-2021 00:16:25 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 61
+[18-Oct-2021 00:17:38 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 61
+[18-Oct-2021 00:18:46 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 61
+[18-Oct-2021 00:22:32 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 61
+[18-Oct-2021 00:43:44 UTC] PHP Parse error:  syntax error, unexpected '$output' (T_VARIABLE) in /home/sadness/public_html/guestbook/index.php on line 37
+[18-Oct-2021 01:49:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/register.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 57
+[18-Oct-2021 01:49:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/register.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 57
+[18-Oct-2021 01:50:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/register.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 57
+[18-Oct-2021 01:50:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/register.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 57
+[18-Oct-2021 01:51:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/register.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 57
+[18-Oct-2021 01:52:27 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 62
+[18-Oct-2021 01:54:42 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 81
+[18-Oct-2021 02:00:08 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 80
+[18-Oct-2021 02:04:15 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/sadness/public_html/guestbook/register.php on line 58
+[18-Oct-2021 02:04:15 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 81
+[18-Oct-2021 02:04:30 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/sadness/public_html/guestbook/register.php on line 58
+[18-Oct-2021 02:04:30 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 81
+[18-Oct-2021 02:04:40 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/sadness/public_html/guestbook/register.php on line 58
+[18-Oct-2021 02:06:03 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 81
+[18-Oct-2021 02:06:12 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 81
+[18-Oct-2021 02:15:24 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/sadness/public_html/guestbook/verify.php on line 10
+[18-Oct-2021 02:15:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/sadness/public_html/guestbook/verify.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:15:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home/sadness/public_html/guestbook/verify.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:16:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, string given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:16:40 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 81
+[18-Oct-2021 02:17:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, string given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:17:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, string given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:19:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, string given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:20:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, string given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:20:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, string given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:22:10 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 10
+[18-Oct-2021 02:22:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:22:13 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 10
+[18-Oct-2021 02:22:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:22:15 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 10
+[18-Oct-2021 02:22:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:23:17 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 10
+[18-Oct-2021 02:23:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:23:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:23:18 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 10
+[18-Oct-2021 02:23:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:23:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:23:43 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 10
+[18-Oct-2021 02:23:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:23:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 21
+[18-Oct-2021 02:23:44 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 10
+[18-Oct-2021 02:23:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:23:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 21
+[18-Oct-2021 02:23:52 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 10
+[18-Oct-2021 02:23:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:23:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 21
+[18-Oct-2021 02:24:15 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 10
+[18-Oct-2021 02:24:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:24:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 21
+[18-Oct-2021 02:26:05 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 81
+[18-Oct-2021 02:26:21 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 10
+[18-Oct-2021 02:26:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:26:30 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 10
+[18-Oct-2021 02:26:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:30:33 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 10
+[18-Oct-2021 02:30:33 UTC] PHP Warning:  mysqli::query(): Empty query in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:30:33 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 12
+[18-Oct-2021 02:30:34 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 10
+[18-Oct-2021 02:30:34 UTC] PHP Warning:  mysqli::query(): Empty query in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:30:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 12
+[18-Oct-2021 02:30:38 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 10
+[18-Oct-2021 02:30:38 UTC] PHP Warning:  mysqli::query(): Empty query in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:30:38 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 12
+[18-Oct-2021 02:31:41 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:31:41 UTC] PHP Warning:  mysqli::query(): Empty query in /home/sadness/public_html/guestbook/verify.php on line 12
+[18-Oct-2021 02:31:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:34:20 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 83
+[18-Oct-2021 02:35:59 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 82
+[18-Oct-2021 02:36:14 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:36:14 UTC] PHP Warning:  mysqli::query(): Empty query in /home/sadness/public_html/guestbook/verify.php on line 12
+[18-Oct-2021 02:36:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:36:26 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:36:26 UTC] PHP Warning:  mysqli::query(): Empty query in /home/sadness/public_html/guestbook/verify.php on line 12
+[18-Oct-2021 02:36:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:36:45 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:36:45 UTC] PHP Warning:  mysqli::query(): Empty query in /home/sadness/public_html/guestbook/verify.php on line 12
+[18-Oct-2021 02:36:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:36:56 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sadness/public_html/guestbook/verify.php on line 11
+[18-Oct-2021 02:36:56 UTC] PHP Warning:  mysqli::query(): Empty query in /home/sadness/public_html/guestbook/verify.php on line 12
+[18-Oct-2021 02:36:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:37:30 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 82
+[18-Oct-2021 02:39:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:39:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:39:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:39:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:39:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:40:25 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/sadness/public_html/guestbook/verify.php on line 17
+[18-Oct-2021 02:40:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:40:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:43:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:43:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:43:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:44:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:45:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:45:21 UTC] PHP Warning:  mysqli_num_rows() expects exactly 1 parameter, 2 given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:45:57 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:45:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:47:12 UTC] PHP Warning:  mysqli_query(): Empty query in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:49:08 UTC] PHP Warning:  mysqli_query(): Empty query in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:49:09 UTC] PHP Warning:  mysqli_query(): Empty query in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:49:10 UTC] PHP Warning:  mysqli_query(): Empty query in /home/sadness/public_html/guestbook/verify.php on line 13
+[18-Oct-2021 02:50:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, string given in /home/sadness/public_html/guestbook/verify.php on line 14
+[18-Oct-2021 02:51:11 UTC] PHP Warning:  mysqli_num_rows() expects exactly 1 parameter, 2 given in /home/sadness/public_html/guestbook/verify.php on line 14
+[18-Oct-2021 02:51:12 UTC] PHP Warning:  mysqli_num_rows() expects exactly 1 parameter, 2 given in /home/sadness/public_html/guestbook/verify.php on line 14
+[18-Oct-2021 02:51:14 UTC] PHP Warning:  mysqli_num_rows() expects exactly 1 parameter, 2 given in /home/sadness/public_html/guestbook/verify.php on line 14
+[18-Oct-2021 02:51:15 UTC] PHP Warning:  mysqli_num_rows() expects exactly 1 parameter, 2 given in /home/sadness/public_html/guestbook/verify.php on line 14
+[18-Oct-2021 02:51:44 UTC] PHP Warning:  mysqli_num_rows() expects exactly 1 parameter, 2 given in /home/sadness/public_html/guestbook/verify.php on line 14
+[18-Oct-2021 02:52:05 UTC] PHP Warning:  mysqli_num_rows() expects exactly 1 parameter, 2 given in /home/sadness/public_html/guestbook/verify.php on line 14
+[18-Oct-2021 02:55:36 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 82
+[18-Oct-2021 02:56:14 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 82
+[18-Oct-2021 03:05:57 UTC] PHP Warning:  A non-numeric value encountered in /home/sadness/public_html/guestbook/forgot.php on line 26
+[18-Oct-2021 03:05:57 UTC] PHP Warning:  require(PHPMailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/sadness/public_html/guestbook/forgot.php on line 54
+[18-Oct-2021 03:05:57 UTC] PHP Fatal error:  require(): Failed opening required 'PHPMailer/PHPMailerAutoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/sadness/public_html/guestbook/forgot.php on line 54
+[18-Oct-2021 15:58:23 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 82
+[18-Oct-2021 16:00:05 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 82
+[18-Oct-2021 16:00:53 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 82
+[18-Oct-2021 16:04:03 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 82
+[18-Oct-2021 16:08:01 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 82
+[18-Oct-2021 16:10:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sadness/public_html/guestbook/login.php on line 99
+[18-Oct-2021 16:21:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/sadness/public_html/guestbook/login.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/login.php on line 15
+[18-Oct-2021 16:21:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/sadness/public_html/guestbook/login.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/login.php on line 15
+[18-Oct-2021 16:21:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/sadness/public_html/guestbook/login.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/login.php on line 15
+[18-Oct-2021 16:26:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sadness/public_html/guestbook/login.php on line 91
+[18-Oct-2021 16:54:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sadness/public_html/guestbook/login.php:18) in /home/sadness/public_html/guestbook/login.php on line 20
+[18-Oct-2021 16:58:02 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 82
+[18-Oct-2021 17:01:31 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 82
+[18-Oct-2021 17:02:01 UTC] PHP Parse error:  syntax error, unexpected 'statusmsg' (T_STRING), expecting ',' or ';' in /home/sadness/public_html/guestbook/verify.php on line 20
+[18-Oct-2021 17:04:21 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 82
+[18-Oct-2021 17:04:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sadness/public_html/guestbook/login.php on line 85
+[18-Oct-2021 17:04:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sadness/public_html/guestbook/login.php on line 85
+[18-Oct-2021 17:20:03 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 83
+[18-Oct-2021 17:23:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sadness/public_html/guestbook/register.php:4) in /home/sadness/public_html/guestbook/register.php on line 81
+[18-Oct-2021 17:23:20 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 83
+[18-Oct-2021 17:23:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sadness/public_html/guestbook/register.php:4) in /home/sadness/public_html/guestbook/register.php on line 81
+[18-Oct-2021 17:24:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sadness/public_html/guestbook/register.php:4) in /home/sadness/public_html/guestbook/register.php on line 23
+[18-Oct-2021 17:28:14 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 87
+[18-Oct-2021 17:28:22 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 87
+[18-Oct-2021 17:28:35 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 87
+[18-Oct-2021 17:28:42 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 87
+[18-Oct-2021 17:30:07 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 86
+[18-Oct-2021 17:32:40 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 87
+[18-Oct-2021 17:32:46 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 87
+[18-Oct-2021 17:32:54 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 87
+[18-Oct-2021 17:41:47 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/sadness/public_html/guestbook/register.php on line 6
+[18-Oct-2021 17:41:59 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 87
+[18-Oct-2021 17:42:05 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 87
+[18-Oct-2021 17:43:02 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 87
+[18-Oct-2021 17:43:10 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 65
+[18-Oct-2021 17:43:11 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 87
+[18-Oct-2021 17:43:36 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 65
+[18-Oct-2021 17:43:36 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 17:44:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/sadness/public_html/guestbook/register.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/register.php on line 65
+[18-Oct-2021 17:44:31 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 17:44:37 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 65
+[18-Oct-2021 17:44:37 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 17:45:16 UTC] PHP Parse error:  syntax error, unexpected 'color' (T_STRING) in /home/sadness/public_html/guestbook/register.php on line 70
+[18-Oct-2021 17:45:21 UTC] PHP Parse error:  syntax error, unexpected 'color' (T_STRING) in /home/sadness/public_html/guestbook/register.php on line 70
+[18-Oct-2021 17:45:38 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 17:45:44 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 65
+[18-Oct-2021 17:45:44 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 18:01:19 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 18:01:49 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 19:28:31 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 19:28:48 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 65
+[18-Oct-2021 19:42:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sadness/public_html/guestbook/admin.php on line 72
+[18-Oct-2021 19:42:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sadness/public_html/guestbook/admin.php on line 72
+[18-Oct-2021 20:31:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sadness/public_html/guestbook/submit-comment.php on line 101
+[18-Oct-2021 20:36:54 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 20:37:12 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 65
+[18-Oct-2021 20:38:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sadness/public_html/guestbook/submit-comment.php on line 101
+[18-Oct-2021 20:50:47 UTC] PHP Parse error:  syntax error, unexpected '$Id' (T_VARIABLE) in /home/sadness/public_html/guestbook/admin.php on line 32
+[18-Oct-2021 20:50:48 UTC] PHP Parse error:  syntax error, unexpected '$Id' (T_VARIABLE) in /home/sadness/public_html/guestbook/admin.php on line 32
+[18-Oct-2021 20:50:49 UTC] PHP Parse error:  syntax error, unexpected '$Id' (T_VARIABLE) in /home/sadness/public_html/guestbook/admin.php on line 32
+[18-Oct-2021 21:02:41 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ')' in /home/sadness/public_html/guestbook/crudcode.php on line 6
+[18-Oct-2021 21:12:33 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 21:12:48 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 65
+[18-Oct-2021 21:13:37 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 21:16:01 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 21:16:11 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 65
+[18-Oct-2021 21:18:57 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 65
+[18-Oct-2021 21:20:17 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 21:20:57 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 21:21:35 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 21:22:12 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 89
+[18-Oct-2021 21:22:16 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 89
+[18-Oct-2021 21:22:17 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 89
+[18-Oct-2021 21:23:59 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 66
+[18-Oct-2021 21:23:59 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 89
+[18-Oct-2021 21:24:39 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 66
+[18-Oct-2021 21:24:39 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 89
+[18-Oct-2021 21:24:48 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 66
+[18-Oct-2021 21:24:48 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 89
+[18-Oct-2021 21:25:10 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 66
+[18-Oct-2021 21:25:10 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 21:25:59 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 66
+[18-Oct-2021 21:25:59 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 21:26:57 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[18-Oct-2021 21:27:07 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 66
+[19-Oct-2021 13:08:54 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[19-Oct-2021 13:09:05 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 66
+[19-Oct-2021 13:17:19 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/verify.php on line 12
+[19-Oct-2021 13:17:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::mysqli_num_rows() in /home/sadness/public_html/guestbook/verify.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/verify.php on line 16
+[19-Oct-2021 13:17:31 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/verify.php on line 12
+[19-Oct-2021 13:17:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::mysqli_num_rows() in /home/sadness/public_html/guestbook/verify.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/verify.php on line 16
+[19-Oct-2021 13:17:57 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/verify.php on line 12
+[19-Oct-2021 13:17:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::mysqli_num_rows() in /home/sadness/public_html/guestbook/verify.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/verify.php on line 14
+[19-Oct-2021 13:17:58 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/verify.php on line 12
+[19-Oct-2021 13:17:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::mysqli_num_rows() in /home/sadness/public_html/guestbook/verify.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sadness/public_html/guestbook/verify.php on line 14
+[19-Oct-2021 13:18:16 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/verify.php on line 12
+[19-Oct-2021 13:18:57 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/sadness/public_html/guestbook/verify.php on line 12
+[19-Oct-2021 13:18:58 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/sadness/public_html/guestbook/verify.php on line 12
+[19-Oct-2021 13:19:26 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/verify.php on line 12
+[19-Oct-2021 13:19:27 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/verify.php on line 12
+[19-Oct-2021 13:19:59 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/verify.php on line 12
+[19-Oct-2021 13:20:52 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/verify.php on line 12
+[19-Oct-2021 13:21:11 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/verify.php on line 11
+[19-Oct-2021 13:21:13 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/verify.php on line 11
+[19-Oct-2021 13:21:31 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/verify.php on line 11
+[19-Oct-2021 13:22:54 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/verify.php on line 11
+[19-Oct-2021 13:25:14 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/verify.php on line 11
+[19-Oct-2021 13:29:49 UTC] PHP Warning:  mkdir(): File exists in /home/sadness/public_html/guestbook/register.php on line 88
+[19-Oct-2021 13:29:58 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/register.php on line 66
+[19-Oct-2021 13:30:15 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/guestbook/verify.php on line 11
+[19-Oct-2021 13:35:28 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/sadness/public_html/guestbook/admin.php on line 28
+[19-Oct-2021 13:36:30 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/sadness/public_html/guestbook/admin.php on line 28
+[19-Oct-2021 13:37:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/sadness/public_html/guestbook/admin.php on line 28
+[19-Oct-2021 13:37:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/sadness/public_html/guestbook/admin.php on line 28
+[19-Oct-2021 13:38:38 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/sadness/public_html/guestbook/admin.php on line 28
+[19-Oct-2021 13:51:19 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/sadness/public_html/guestbook/admin.php on line 37

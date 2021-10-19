@@ -1,0 +1,29 @@
+html, body {
+  padding:0;
+  margin:0;
+}
+#container {
+  width:600px;
+  margin:0 auto;
+  font-family:verdana;
+}
+.navbar {
+  position:relative;
+  display:flex;
+  justify-content:space-between;
+  z-index:1;
+  padding-top:5px;
+}
+.item a {
+  color:white;
+  font-weight:bold;
+  text-decoration:none;
+}
+.topbar {
+  content: '';
+  background-color:black;
+  width:100%;
+  position:absolute;
+  height:30px;
+  z-index:-99;
+}
