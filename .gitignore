@@ -1,2 +1,5 @@
 # Ignore Database File
 config.php
+
+# Ignore Error Log
+error_log
