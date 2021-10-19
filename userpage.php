@@ -1,15 +1,18 @@
+<link rel="stylesheet" href="css/style.css" media="all">
+</head>
+<div class="topbar"></div>
+<div id="container">
+      <div class="navbar">
+    <div class="item"><a href="/">Home</a></div>
+    <div class="item"><a href="register.php">Register</a></div>
+    <div class="item"><a href="login.php">Login</a></div>
+  </div>
+
 <?php
 include "../db/guestbook/config.php";
 
-$html = "<link rel='stylesheet' href='css/style.css' media='all'>
-</head>
-<div class='topbar'></div>
-<div id='container'>
-      <div class='navbar'>
-    <div class='item'><a href='/'>Home</a></div>
-    <div class='item'><a href='register.php'>Register</a></div>
-    <div class='item'><a href='login.php'>Login</a></div>
-  </div>";
+$dir = getcwd();
+$username = basename($dir);
 
 $username = 'sadness';
 
@@ -37,5 +40,3 @@ while ($row = $result->fetch_assoc()) {
     $output .= "<td>$Date</td> <td>$Nickname</td> <td>$Email</td> <td>$Comment</td>";
     $output .= "</tr>";
 }
-echo $html;
-echo $output;
