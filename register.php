@@ -92,8 +92,7 @@ $dir = getcwd();
 $username = basename($dir);
 
 include "../../../db/guestbook/config.php"
-include "../../userpage.php"
-?>')
+include "../../userpage.php"');
 
 fwrite($createSubmitPage, '<?php
 $dir = getcwd();
@@ -101,9 +100,9 @@ $username = basename($dir);
 
 include "../../../db/guestbook/config.php"
 include "../../usersubmit.php"
-?>')
+');
 
-
+?>
 <link rel="stylesheet" href="css/style.css" media="all">
   </head>
   <body>
