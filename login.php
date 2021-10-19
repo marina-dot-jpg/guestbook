@@ -1,5 +1,5 @@
 <?php
-include "config.php";
+include "../db/guestbook/config.php";
 
 if (isset($_POST['but_submit'])) {
 

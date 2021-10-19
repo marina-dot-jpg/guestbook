@@ -1,5 +1,5 @@
-<?php 
-include "config.php";
+<?php
+include "../db/guestbook/config.php";
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,34 +15,34 @@ include "config.php";
     <!-- Bootstrap JS -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<?php 
-$error_message = "";$success_message = "";
+<?php
+$error_message = "";
+$success_message = "";
 
 // Submit Comment
-if(isset($_POST['btnComment'])){
-   $nickname = trim($_POST['nickname']);
-   $email = trim($_POST['email']);
-   $comment = trim($_POST['comment']);
-   $dateposted = date("Y-m-d");
-   $gowner = 'sadness';
+if (isset($_POST['btnComment'])) {
+    $nickname = trim($_POST['nickname']);
+    $email = trim($_POST['email']);
+    $comment = trim($_POST['comment']);
+    $dateposted = date("Y-m-d");
+    $gowner = 'sadness';
 
     echo $dateposted;
 
-   // Check fields are empty or not
-   if ($nickname == '' || $email == '' || $comment == ''){
-     $error_message = "Please fill all fields.";
-   }
+    // Check fields are empty or not
+    if ($nickname == '' || $email == '' || $comment == '') {
+        $error_message = "Please fill all fields.";
+    }
 
-   // Insert records
-     $insertSQL = "INSERT INTO guestbooks(gowner, dateposted, nickname,email,comment ) values(?,?,?,?,?)";
-     $stmt = $con->prepare($insertSQL);
-     $stmt->bind_param("sssss",$gowner, $dateposted, $nickname,$email,$comment);
-     $stmt->execute();
-     $stmt->close();
+    // Insert records
+    $insertSQL = "INSERT INTO guestbooks(gowner, dateposted, nickname,email,comment ) values(?,?,?,?,?)";
+    $stmt = $con->prepare($insertSQL);
+    $stmt->bind_param("sssss", $gowner, $dateposted, $nickname, $email, $comment);
+    $stmt->execute();
+    $stmt->close();
 
-     $success_message = "Comment posted successfully.";
-     
-?>
+    $success_message = "Comment posted successfully.";
+    ?>
   </head>
   <body>
     <div class='container'>
@@ -53,29 +53,10 @@ if(isset($_POST['btnComment'])){
           <form method='post' action=''>
 
             <h1>SignUp</h1>
-            <?php 
-            // Display Error message
-            if(!empty($error_message)){
-            ?>
-            <div class="alert alert-danger">
-              <strong>Error!</strong> <?= $error_message ?>
-            </div>
 
             <?php
-            }
-            ?>
-
-            <?php 
-            // Display Success message
-            if(!empty($success_message)){
-            ?>
-            <div class="alert alert-success">
-              <strong>Success!</strong> <?= $success_message ?>
-            </div>
-
-            <?php
-            }
-            ?>
+}
+?>
 
             <div class="form-group">
             <div class="form-group">
